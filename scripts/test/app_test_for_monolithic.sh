@@ -67,7 +67,7 @@ function test_one() {
     local args=$1
     local actual="$APP/actual.out"
     # 默认要用批量测试模式
-    args="$args ARCH=$ARCH APP_FEATURES=batch ACCEL=n"
+    args="$args ARCH=$ARCH SMP=4 APP_FEATURES=batch ACCEL=n"
     rm -f "$actual"
 
     MSG=
