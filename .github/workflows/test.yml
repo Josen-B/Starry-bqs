@@ -27,7 +27,7 @@ on:
         type: string
         default: 'main'
 env:
-  qemu-version: 8.2.0
+  qemu-version: 7.0.0
   rust-toolchain: nightly-2024-05-02
 
 jobs:
